@@ -2,7 +2,7 @@ import java.util.LinkedList;
 import java.util.Date;
 import java.util.Calendar;
 
-public class HashTable<K, V> {
+public class ChainedHashTable<K, V> {
 	
 	private Chain<V>[] rows;
 	private int m;
