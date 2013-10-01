@@ -1,13 +1,9 @@
-import java.util.LinkedList;
-import java.util.Date;
-import java.util.Calendar;
-
 public class ChainedHashTable<K, V> {
 	
 	private Chain<V>[] rows;
 	private int m;
 
-	public HashTable(int size){
+	public ChainedHashTable(int size){
 		rows = new Chain[size];
 		this.m = size;
 	}
